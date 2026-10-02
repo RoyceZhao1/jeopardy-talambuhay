@@ -6,7 +6,7 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'Which state do gas station workersnpm give you service?',
+        question: 'Which state do gas station workers give you service?',
         answer: 'New Jersey',
     },
     {
@@ -19,8 +19,8 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'how much wood can a woodchuck chuck if a woodchuck could chuck wood?',
+        answer: 'a chuck of wood',
     },
     {
         points: 400,
