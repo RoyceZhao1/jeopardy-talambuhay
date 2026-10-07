@@ -12,52 +12,54 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'What is the name of my first pet?',
+        answer: 'Cookie',
     },
     {
         points: 300,
         question:
-            'how much wood can a woodchuck chuck if a woodchuck could chuck wood?',
-        answer: 'a chuck of wood',
+            'which country did I visit in during the summer of 2022?',
+        answer: 'Italy',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'Which state are my cousins living in? ',
+        answer: 'California',
+    },
+    {
+        points: 500,
+        question: 'when is my birthday?',
+        answer: 'August 20th'
     }
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 400,
-            question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
-        },
-        {
             points: 100,
             question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
+                'where is my house?',
+            answer: 'Scarsdale',
         },
         {
             points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'what place is this?',
+            answer: 'Chipotle',
         },
         {
             points: 300,
-            question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-            imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+            question: 'which train station is this?',
+            answer: 'Hartsdale Train Station',
+        },
+        {
+            points: 400,
+            question: '',
+            answer: 'blank',
+        },
+        {
+            points: 500,
+            question: 'blank',
+            answer: 'blank',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
@@ -74,15 +76,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'Royce\'s Past',
+        title: 'Background',
         questions: pastQuestions
     },
     {
-        title: `Royce's Present`,
+        title: `Places I've been`,
         questions: presentQuestions
     },
     {
-        title: "Royce's Future",
+        title: "Fun Facts",
         questions: futureQuestions
     }
 ];
